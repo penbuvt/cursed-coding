@@ -2,6 +2,8 @@
 
 Programming challenges, but we are not allowed to use literals or direct references to built-in values.
 
+Watch the [companion stream](https://www.youtube.com/watch?v=xqDhV6G65SU).
+
 ## Challenge rules
 
 1. No non-derived values are allowed. This includes literals (numbers, objects, arrays, `null`, `undefined`, etc.), default/global objects (`Object`, `Array`, `String`, `Math`, `this`, `globalThis`, `window`, etc.) and functions (`eval`, `parseInt`, etc.). This also includes creating functions and classes using `function`/`class` statements and expressions.

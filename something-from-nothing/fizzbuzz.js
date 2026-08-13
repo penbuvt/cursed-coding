@@ -83,7 +83,7 @@ const RBRACKET = str_func_Function[n34];
 const B = (TRUE[str_constructor] + str_string)[n9];
 const S = (func_String + str_string)[n9];
 
-const obj_array = func_Function(str_return + SP + LBRACKET+RBRACKET);
+const obj_array = func_Function(str_return + SP + LBRACKET+RBRACKET)();
 const func_Array = obj_array[str_constructor];
 
 const str_toString = t+o+S+t+r+i+n+g;
@@ -112,7 +112,7 @@ const LF = func_fromCharCode(n10);
 
 // n+=1;return(s='',n%3||(s+='Fizz'),n%5||(s+='Buzz'),s||(s+=n))
 const fizzBuzzSingleBody = n+PLUS+EQUALS+n1+SEMI+r+e+t+u+r+n+LPAREN+s+EQUALS+APOS+APOS+COMMA+n+PERCENT+n3+BAR+BAR+LPAREN+s+PLUS+EQUALS+APOS+F+i+z+z+APOS+RPAREN+COMMA+n+PERCENT+n5+BAR+BAR+LPAREN+s+PLUS+EQUALS+APOS+B+u+z+z+APOS+RPAREN+COMMA+s+BAR+BAR+LPAREN+s+PLUS+EQUALS+n+RPAREN+RPAREN;
-const arr_fizzbuzz = Array[f+r+o+m](Array(n20), Function(s, n, fizzBuzzSingleBody));
+const arr_fizzbuzz = func_Array[f+r+o+m](func_Array(n20), func_Function(s, n, fizzBuzzSingleBody));
 
 const str_console = c+o+n+s+o+l+e;
 const str_log = l+o+g;
